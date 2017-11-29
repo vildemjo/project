@@ -1,0 +1,26 @@
+INCAR for oxygen molecule in vacuum
+
+System = O2
+
+ISTART = 0
+
+ISMEAR = 0
+SIGMA  = 0.1
+
+NSW    = 200               ! allow 200 steps in relaxation
+ISIF   = 2                 ! constant volume and shape
+
+IBRION = 2  ; NFREE = 12   ! use CG algorithm
+POTIM  = 0.400             ! optimal = trial step x default POTIM
+LORBIT = 11
+
+ENCUT  = 500               ! Planewave cut-off
+LREAL = .FALSE.            ! Projection done in reciprocal space
+LASPH = .TRUE.  
+ISPIN = 2                  ! Enable spin-polarization
+
+PREC = Accurate
+EDIFF  = 1e-6              ! Accuracy for total energy
+EDIFFG  = -0.01            ! Accuracy for force
+
+NPAR = 4

@@ -242,74 +242,15 @@ O(III)&    0.087&    0.221&	2.13	&    -711.603\\
 
 \subsubsection{Formation Energy}
 
-$$E^f = E_d - E_h - \sum_i \Delta n \mu_i = E_d - E_h - \mu_O$$
+$$E_f = (E_{vac} + \sum_i \Delta n \mu_i) - E_b  = (E_{vac}+ \mu_O) - E_b $$
 
 \begin{table}[H]\caption{This is the calculated formation energies for the diffrent oxygen vacancies at oxygen rich conditions.}\label{tab:energy_formation}
-\begin{tabular}{cc}
-Vacancy& E$_b$ - (E$_{vac}$ + $\mu_O$) = E$_f$ \\ \hline
-O(I)&  -721.081 - (-712.282 -4.942) = -3.857\\
-O(II)&  -721.081 - (-711.860 -4.942) = -4.279\\
-O(III)&  -721.081 - (-711.603 -4.942) = -4.536\\
+\begin{tabular}{lrl}
+\footnotesize Vacancy&$(E_{vac} + \mu_O)- E_b = $ &$E_f$ \\ \hline
+\small O(I)&$(-712.282 -4.942)-721.081 =$ &3.857\\
+\small O(II)&$(-711.860 -4.942)-721.081 =$ &4.279\\
+\small O(III)&$(-711.603 -4.942)-721.081 =$ &4.536\\
 \end{tabular}
 \end{table}
 
-\subsection{Why the O(I) vacancy?}
-
-\newpage
-
-\subsubsection{Total density of states}
-
-Notice the new level in the band gap - defect level - filled.
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/total_dos_O_I_vacancy}\caption{This is a plot of the density of state of the super cell with a O(I) vacancy.}\label{fig:total_dos_vac}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/total_dos_supercell}\caption{This is a plot of density of state of the general supercell.}\label{fig:total_dos_supercell}
-\end{figure}
-
-\subsubsection{Isosurfaces}
-
-\paragraph*{O(I)}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/isosurfaces/O_I/isosurface}\caption{This figure shows the oxygen vacancy with different isosurfaces.}\label{fig:isosurface_O_I}
-\end{figure}
-
-
-\paragraph*{O(I)}
-
-
-\paragraph*{O(II)}
-
-\subsubsection{Local DOS Ga(II)}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_II_OI_vac_nabo}\caption{This is a plot of local density of state at the Ga(II) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_II_nabo}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_II_supercell}\caption{This is a plot of local density of state at the Ga(II) site in the general supercell.}\label{fig:ldos_Ga_II_supercell}
-\end{figure}
-
-\subsubsection{Local DOS Ga(I)$_1$}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_OI_vac_nabo}\caption{This is a plot of local density of state at the Ga(I) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_I_nabo}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_supercell}\caption{This is a plot of local density of state at the Ga(I) site in the general supercell.}\label{fig:ldos_Ga_I_supercell}
-\end{figure}
-
-\subsubsection{Bond between Ga(I)$_1$ and Ga(I)$_2$?}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_OI_vac_nabo}\caption{This is a plot of local density of state at the Ga(I) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_I_nabo}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_OI_vac_nabo2}\caption{This is a plot of local density of state at the other Ga(I) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_I_nabo}
-\end{figure}
 
