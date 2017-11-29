@@ -1,0 +1,49 @@
+\subsection{Set up}
+
+Type of GGA.
+
+\subsection{Execution}
+
+\begin{itemize}
+
+\item Found structure for $\beta- \text{Ga}_2\text{O}_3$
+
+\item Checked convergence for energy cut off and k-point density for primitive unit cell
+
+\item Convergence criteria result:
+\subitem ENCUT = 600
+\subitem makekpoints -d 5 $\rightarrow$ (3x11x6)
+
+\item Relaxed the unit cell
+
+\item Plotted DOS and band structure for primitive unit cell
+
+\item Made super cell (1x 3y 2z)
+
+\item Changed convergence criteria:
+\subitem EDIFFG = -0.01
+\subitem ENCUT = 500
+\subitem ISIF = 3
+\subitem makekpoints -d 3 $\rightarrow$ (2x3x2)
+
+\item Relaxed super cell (both electronic and pressure)
+
+\item Calculated energy for relaxed unit cell
+
+\item Made three different structures for three different oxygen vacancies
+
+\item Relaxed all three structures
+
+\item Calculated energy for the relaxed structures
+
+\item Calculated energy of oxygen molecule in vacuum
+\subitem EDIFFG = -0.01
+\subitem ENCUT = 500
+\subitem ISIF = 3
+\subitem makekpoints -d 3 $\rightarrow$ (2x3x2)
+
+\item Found formation energy 
+
+\item Plotted local DOS near vacancy and far away from it
+
+\end{itemize}

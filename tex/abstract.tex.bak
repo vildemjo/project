@@ -1,0 +1,66 @@
+Spørsmål:
+
+- Hvordan finne formation energy?
+
+$$E^f = E_d - E_h - \sum_i \Delta n \mu_i = E_d - E_h - \mu_O$$
+
+- Hva betyr isosurfacene mine? Er det bindinger der?
+
+- Skal konvergensresultatene være i results?
+
+- Eller skal bare DOS, band structure og energier være i result? konvergens i metode?
+
+- Hva sier dos? Utslag på samme verdi $\rightarrow$ binding. Noe mer?
+
+- Mindre utsalg - hva betyr det?
+
+- Kortere avstander - mindre formation energy?
+
+- Mine konvergenskriterer er?
+
+
+\subsection{To do}
+
+4. DOS?
+
+Hvordan er dos ulik for atomer nær vakansen og langt ifra?
+
+Sjekk for den som er mest stabil? 
+
+5. Undersøke vakansen
+
+Se på vakansen i VESTA
+
+Isosurface
+
+\subsection{Info}
+
+Primitive unit cell base-centered monoclinic. 
+
+Space group: C2/m
+
+Structural info:
+\begin{table}[H]
+\begin{tabular}{ll}
+Ga & O \\                                  
+Space Group: &P 1  (\# 1-1)\\
+a = 12.23000 Å &       $\alpha$ = 90.0000\degree \\
+b =  3.04000 Å &      $\beta$ =103.7000 \degree \\
+c =  5.80000 Å &     $\gamma$ = 90.0000 \degree \\
+V = 209.5042 $\text{Å}^3$& \\
+\end{tabular}
+\end{table}
+
+%login-0-0:dos_after_relax
+%more DOSCAR
+%  20  20   1   0
+%  0.1047521E+02  0.1223000E-08  0.3040000E-09  0.5800000E-09  0.5000000E-15
+%  1.000000000000000E-004
+%  CAR 
+% unknown system                          
+%      7.00000000    -17.00000000 2401      \textbf{2.36000000} (band gap)      1.00000000
+%    -17.000  0.2275E+01  0.2275E-01
+%    -16.990  0.5048E+00  0.2780E-01
+%    -16.980  0.5823E+00  0.3363E-01
+%    -16.970  0.6639E+00  0.4026E-01
+

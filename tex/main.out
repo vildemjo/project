@@ -1,0 +1,35 @@
+\BOOKMARK [2][-]{subsection.0.1}{To do}{}% 1
+\BOOKMARK [2][-]{subsection.0.2}{Info}{}% 2
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.2}{Theory}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{The material, -Ga2O3}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{DFT Convergence}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{DFT Formation Energy}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Method}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Set up}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Execution}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Result and discussion}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Convergence}{section.4}% 12
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Energy cut-off}{subsection.4.1}% 13
+\BOOKMARK [3][-]{subsubsection.4.1.2}{k-point density}{subsection.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Primitive unit cell}{section.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Density of States}{subsection.4.2}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Band structure}{subsection.4.2}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Supercell}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Relaxation and energy}{subsection.4.3}% 19
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Changed convergence criteria}{subsection.4.3}% 20
+\BOOKMARK [2][-]{subsection.4.4}{O2 in vacuum}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Chemical potential}{subsection.4.4}% 22
+\BOOKMARK [2][-]{subsection.4.5}{Different oxygen vacancies}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.5.1}{O\(I\) vacancy}{subsection.4.5}% 24
+\BOOKMARK [3][-]{subsubsection.4.5.2}{O\(II\) vacancy}{subsection.4.5}% 25
+\BOOKMARK [3][-]{subsubsection.4.5.3}{O\(III\) vacancy}{subsection.4.5}% 26
+\BOOKMARK [3][-]{subsubsection.4.5.4}{Total Energy}{subsection.4.5}% 27
+\BOOKMARK [3][-]{subsubsection.4.5.5}{Formation Energy}{subsection.4.5}% 28
+\BOOKMARK [2][-]{subsection.4.6}{Why the O\(I\) vacancy?}{section.4}% 29
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Total density of states}{subsection.4.6}% 30
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Isosurfaces}{subsection.4.6}% 31
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Local DOS Ga\(II\)}{subsection.4.6}% 32
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Local DOS Ga\(I\)1}{subsection.4.6}% 33
+\BOOKMARK [3][-]{subsubsection.4.6.5}{Bond between Ga\(I\)1 and Ga\(I\)2?}{subsection.4.6}% 34
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 35
