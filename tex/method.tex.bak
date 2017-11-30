@@ -49,3 +49,66 @@ VASP. PDE?
 \item Plotted local DOS near vacancy and far away from it
 
 \end{itemize}
+
+\subsection{Convergence}
+
+This section present the result from the convergence tests. The figures have normal convergence criteria plotted with the results, to help evaluate them. 
+
+\subsubsection{Energy cut-off}
+
+\begin{equation}\label{eq:relative_energy}
+|\Delta E_{rel}^i| =\left| \left( E_a^{i+1}-E_a^i\right)-\left( E_b^{i+1}-E_b^i\right)\right|
+\end{equation}
+
+We started with convergence with respect to energy cut-off. Figure \ref{fig:totencutoff} shows the plot of the change in relative energy, $\Delta E_{rel}$ (see Equation \ref{eq:relative_energy}), between the total energy of the primitive unit cell, $E_a$, and the total energy of the unit cell with one less oxygen, $E_b$, against the cut-off energy. The plot shows that a cut-off energy of 600 eV would give a good convergence well below 1 meV for the energy.
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/deltatotencurverel.pdf}\caption{This is a plot of the difference between change in energy for $\beta \text{-Ga}_2\text{O}_3$ with and without a oxygen vacancy. We can see from the plot that a cut-off energy of 600 eV is sufficient.}\label{fig:totencutoff}
+\end{figure}
+
+We also looked at the force and the pressure with respect to the cut-off energy. Figure \ref{fig:forcepresscutoff} shows the result. A cut-off energy of 600 eV gives a good convergence for force and pressure also. 
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/deltaforcepressrel.pdf}\caption{This is a plot of the difference between change in both force and pressure for $\beta \text{-Ga}_2\text{O}_3$ with and without a oxygen vacancy. We can see from the plot that with respect to pressure and force 600 eV is more than sufficient. The change in force increases, but it is still small.}\label{fig:forcepresscutoff}
+\end{figure}
+
+After increasing the primitive unit cell to a super cell, the CPU time of the relaxation increased a lot. To make the calculations more workable, the convergence criteria was made a little less strict and the new cut-off energy was sat to 500 eV. When we look at Figure \ref{fig:totencutoff} and \ref{fig:forcepresscutoff} we see that a cut-off energy at 500 eV gives a good convergence as well, it is still around 3 meV for the energy and around 1 kbar for the pressure and 0.01 eV/Å for the force.
+
+\subsubsection{k-point density}
+
+Thereafter, we evaluated the necessary k-point density. Figure \ref{fig:totenkpoints} shows the result for the relative change in energy and Figure \ref{fig:forcepresskpoints} tshows the same for force and pressure. 
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/deltatotencurverel_kpoints.pdf}\caption{This is a plot of the difference between change in energy for $\text{Ga}_2\text{O}_3$ with and without a oxygen vacancy. We can see from the plot that a k-point density of 5 $\text{Å}^{-1}$ is sufficient.}\label{fig:totenkpoints}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/deltaforcepressrel_kpoints.pdf}\caption{This is a plot of the difference between change in both force and pressure for $\text{Ga}_2\text{O}_3$ with and without a oxygen vacancy. All the k-point densities gives good convergence.}\label{fig:forcepresskpoints}
+\end{figure}
+
+Initially the k-point density was put to 5 Å$^{-1}$, for the accuracy to be at 1 meV for the energy. After the change in strictness, only 3 Å$^{-1}$ were necessary to accomplish the criteria of 3 meV for the accuracy of the energy, 1 kbar in pressure and 0.01 eV/Å in force. 
+
+\subsubsection{Oxygen molecule}
+
+We also had to check the convergence of the oxygen molecule in vacuum, to calculate the formation energy. Figure \ref{fig:totencutoff_O2} and \ref{fig:forcepresscutoff_O2} shows the convergence result for this with respect to energy cut-off.
+
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/oxygen/deltatotencurverel.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum with respect to cut-off energy. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:totencutoff_O2}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/oxygen/deltaforcepressrel.pdf}\caption{This is a plot of the change in the relative force and pressure for the oxygen molecule in vacuum with respect to cu-off energy. The relative force and pressure is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:forcepresscutoff_O2}
+\end{figure}
+
+
+The convergence test of the k-point density of the oxygen molecule is in Figure \ref{
+
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/oxygen/deltatotencurverel_kpoints.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum with respect to k-point density. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:totenkpoint_O2}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/oxygen/deltaforcepressrel_kpoints.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:forcepresskpoint_O2}
+\end{figure}

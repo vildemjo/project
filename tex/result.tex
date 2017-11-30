@@ -1,44 +1,5 @@
 The units and uncertainties of the properties in this section are set here. The energy unit is eV with uncertainty $\pm$ 0.003 eV, pressure is in units kbar with uncertainty $\pm$ 1 kbar and force in units eV/Å with uncertainty $\pm$ 0.01 eV/Å.
 
-\subsection{Convergence}
-
-We started by checking the convergence. The figures have some normal convergence criteria plotted with the results. 
-
-\subsubsection{Energy cut-off}
-
-\begin{equation}\label{eq:relative_energy}
-|\Delta E_{rel}^i| =\left| \left( E_a^{i+1}-E_a^i\right)-\left( E_b^{i+1}-E_b^i\right)\right|
-\end{equation}
-
-We started with the energy convergence. Figure \ref{fig:totencutoff} shows the plot of the change in relative energy (Equation \ref{eq:relative_energy}) between the total energy of the unit cell, $E_a$, and the total energy of the unit cell with one less oxygen, $E_b$, against the cut-off energy. The plot shows that a cut-off energy of 600 eV would give a good convergence well below 1 meV for the energy.
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/deltatotencurverel.pdf}\caption{This is a plot of the difference between change in energy for $\text{Ga}_2\text{O}_3$ with and without a oxygen vacancy. We can see from the plot that a cut-off energy of 600 eV is sufficient.}\label{fig:totencutoff}
-\end{figure}
-
-We also looked at the force and the pressure with respect to the cut-off energy. Figure \ref{fig:forcepresscutoff} shows the result. A cut-off energy of 600 eV gives a good convergence for force and pressure also. 
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/deltaforcepressrel.pdf}\caption{This is a plot of the difference between change in both force and pressure for $\text{Ga}_2\text{O}_3$ with and without a oxygen vacancy. We can see from the plot that with respect to pressure and force 600 eV is more than sufficient. The change in force increases, but it is still small.}\label{fig:forcepresscutoff}
-\end{figure}
-
-After increasing the primitive unit cell to a super cell, the CPU time of the relaxation increased a lot. To make the calculations more workable, the convergence criteria was made a little less strict and the new cut-off energy was sat to 500 eV. When we look at Figure \ref{fig:totencutoff} and \ref{fig:forcepresscutoff} we see that a cut-off energy at 500 eV gives a good convergence as well, it is still around 1-10 meV for the energy and around 1 kbar for the pressure and 0.005 eV/Å for the force.
-
-\subsubsection{k-point density}
-
-Thereafter, we evaluated the necessary k-point density. Figure \ref{fig:totenkpoints} shows the result for the relative change in energy and Figure \ref{fig:forcepresskpoints} force and pressure. 
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/deltatotencurverel_kpoints.pdf}\caption{This is a plot of the difference between change in energy for $\text{Ga}_2\text{O}_3$ with and without a oxygen vacancy. We can see from the plot that a k-point density of 5 $\text{Å}^{-1}$ is sufficient.}\label{fig:totenkpoints}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/deltaforcepressrel_kpoints.pdf}\caption{This is a plot of the difference between change in both force and pressure for $\text{Ga}_2\text{O}_3$ with and without a oxygen vacancy. All the k-point densities gives good convergence.}\label{fig:forcepresskpoints}
-\end{figure}
-
-The k-point density was changed to 3 k-points per Å, when the cell size as increased to a super cell. 
-
-\textit{Should I put this in another subsection with the super cell?}
 
 \subsection{Primitive unit cell}
 
@@ -59,6 +20,8 @@ The total energy per atom with a primitive unit cell was $\frac{E_{tot}}{\# \tex
 \subsubsection{Density of States}
 
 To examine the different oxygen sites, the local density of state for the inequivalent sites were plotted in Figures \ref{fig:ldos_Ga_I} to \ref{fig:ldos_O_III} the total density of state of the primitive unit cell is plotted in Figure \ref{fig:total_dos_primitive}.
+
+lDOS - bredden sier om båndene er bånd - ikke så lokaliserte. Bånd til venstre er mer stabile - lenger borte fra fermi nivået.
 
 \begin{figure}[H]
 \includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I}\caption{This is a plot of local density of state at the Ga(I) site.}\label{fig:ldos_Ga_I}
@@ -253,4 +216,76 @@ $$E_f = (E_{vac} + \sum_i \Delta n \mu_i) - E_b  = (E_{vac}+ \mu_O) - E_b $$
 \end{tabular}
 \end{table}
 
+\subsection{Why the O(I) vacancy?}
+
+
+\subsubsection{Total density of states}
+
+Notice the new level in the band gap - defect level - filled.
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/total_dos_O_I_vacancy}\caption{This is a plot of the density of state of the super cell with a O(I) vacancy.}\label{fig:total_dos_vac}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/total_dos_supercell}\caption{This is a plot of density of state of the general supercell.}\label{fig:total_dos_supercell}
+\end{figure}
+
+\subsubsection{Isosurfaces}
+
+Figure \ref{fig:isosurface_O_I} shows the structure around the O(I) vacancy with different electron density isosurface levels. When the isosurface level is set to 0.04, an electron density is visible between the two Ga(I) atoms the O(I) atom should have been bonded to and and when the isosurface level is 0.03, the isosurface shows a bond between them (Figure \ref{fig:bond_O_I}).
+
+\begin{figure}[H]
+\includegraphics[width=0.9\linewidth]{../fig/isosurfaces/O_I/isosurface}\caption{This figure shows the O(I) vacancy with different electron density isosurfaces.The black arrow points to the O(I) vacancy. When the isosurface level is lowered, a bond appears between the two Ga(I) atoms the O(I) should have been bonded to (Figure \ref{fig:bond_O_I}).}\label{fig:isosurface_O_I}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=0.7\linewidth]{../fig/isosurfaces/O_I/bond}\caption{This figure shows the oxygen vacancy with different isosurfaces.In this figure the bond between the two Ga(I) atoms shows clearly. The isosurface goes from one atom to the other at the isosurface level 0.03.}\label{fig:bond_O_I}
+\end{figure}
+
+Figure \ref{fig:isosurface_O_II} shows the O(II) vacancy with different isosurfaces, when the isosurface level is lowered, the electron density around the Ga(I)-atom shows. The 'blob' shows the dangling bonds at the Ga(I) atom, but there is no 'blob' at the Ga(II) atoms. With the O(II) vacancy the isosurface level needs to be 0.02 for there to be a connection with the other Ga(II) atoms.
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/isosurfaces/O_II/isosurface}\caption{This figure shows the O(II) vacancy with different electron density isosurfaces.The figure shows the oxygen vacancy from different angles. The black arrow points to the vacancy and the red arrows points to the isosurface indicating dangling bonds at the Ga(I) atom.}\label{fig:isosurface_O_II}
+\end{figure}
+
+Figure \ref{fig:isosurface_O_III} shows the same for the O(III) vacancy. As in the case for the O(II) vacancy, the isosurface level needs to be 0.02 before there is a connection, and before that there is the same 'blob' at the one Ga(I) atom, indication dangling bonds.
+
+\begin{figure}[H]
+\includegraphics[width=0.7\linewidth]{../fig/isosurfaces/O_III/isosurface}\caption{This figure shows the oxygen vacancy with different electron density isosurfaces.The black arrow points to the oxygen vacancy and the red arrows points to the dangling bond at the Ga(I) atom.}\label{fig:isosurface_O_III}
+\end{figure}
+
+The difference between the O(I) vacancy with two Ga(I) atoms, that seems to form a covalent bond in the absence of an oxygen, and the other two vacancies, that only have one Ga(I) atom, might be a reason why the O(I) vacancy has the lowest formation energy.
+
+The reason for the bond between two the Ga(I) atoms may come from the shorter length of the O-Ga(I) bond compared to the O-Ga(II) bond (see Figure \ref{fig:distances}). The 'bulb' from the isosurface always occur at the Ga(I) atom, and nothing at the Ga(II) atoms. Maybe the Ga(I) atom has dangling bonds, and the Ga(II) relocate the electrons elsewhere - is that possible? \ref.
+
+\subsubsection{Local DOS Ga(II)}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_II_OI_vac_nabo}\caption{This is a plot of local density of state at the Ga(II) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_II_nabo}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_II_supercell}\caption{This is a plot of local density of state at the Ga(II) site in the general supercell.}\label{fig:ldos_Ga_II_supercell}
+\end{figure}
+
+\subsubsection{Local DOS Ga(I)$_1$}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_OI_vac_nabo}\caption{This is a plot of local density of state at the Ga(I) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_I_nabo}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_supercell}\caption{This is a plot of local density of state at the Ga(I) site in the general supercell.}\label{fig:ldos_Ga_I_supercell}
+\end{figure}
+
+\subsubsection{Bond between Ga(I)$_1$ and Ga(I)$_2$?}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_OI_vac_nabo}\caption{This is a plot of local density of state at the Ga(I) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_I_nabo}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_OI_vac_nabo2}\caption{This is a plot of local density of state at the other Ga(I) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_I_nabo}
+\end{figure}
 

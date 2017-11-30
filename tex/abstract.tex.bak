@@ -1,16 +1,8 @@
 Spørsmål:
 
-- Hvordan finne formation energy?
 
 $$E^f = E_d - E_h - \sum_i \Delta n \mu_i = E_d - E_h - \mu_O$$
 
-- Hva betyr isosurfacene mine? Er det bindinger der?
-
-- Skal konvergensresultatene være i results?
-
-- Eller skal bare DOS, band structure og energier være i result? konvergens i metode?
-
-- Hva sier dos? Utslag på samme verdi $\rightarrow$ binding. Noe mer?
 
 - Mindre utsalg - hva betyr det?
 

@@ -8,29 +8,29 @@
 \contentsline {section}{\numberline {3}Method}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Set up}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Execution}{5}{subsection.3.2}
-\contentsline {section}{\numberline {4}Result}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Convergence}{5}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Energy cut-off}{6}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}k-point density}{6}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}Primitive unit cell}{7}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Density of States}{7}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Band structure}{9}{subsubsection.4.2.2}
-\contentsline {subsection}{\numberline {4.3}Supercell}{9}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Relaxation and energy}{9}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Changed convergence criteria}{10}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}O$_2$ in vacuum}{10}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Chemical potential}{10}{subsubsection.4.4.1}
-\contentsline {subsection}{\numberline {4.5}Different oxygen vacancies}{10}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}O(I) vacancy}{10}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}O(II) vacancy}{10}{subsubsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.3}O(III) vacancy}{10}{subsubsection.4.5.3}
-\contentsline {subsubsection}{\numberline {4.5.4}Total Energy}{10}{subsubsection.4.5.4}
-\contentsline {subsubsection}{\numberline {4.5.5}Formation Energy}{11}{subsubsection.4.5.5}
-\contentsline {section}{\numberline {5}Discussion}{11}{section.5}
-\contentsline {subsection}{\numberline {5.1}Why the O(I) vacancy?}{11}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Total density of states}{11}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Isosurfaces}{11}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Local DOS Ga(II)}{13}{subsubsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.4}Local DOS Ga(I)$_1$}{13}{subsubsection.5.1.4}
-\contentsline {subsubsection}{\numberline {5.1.5}Bond between Ga(I)$_1$ and Ga(I)$_2$?}{14}{subsubsection.5.1.5}
-\contentsline {section}{\numberline {6}Conclusion}{14}{section.6}
+\contentsline {subsection}{\numberline {3.3}Convergence}{5}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Energy cut-off}{5}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}k-point density}{6}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Oxygen molecule}{7}{subsubsection.3.3.3}
+\contentsline {section}{\numberline {4}Result and Discussion}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Primitive unit cell}{7}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Density of States}{7}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Band structure}{9}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Supercell}{9}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Relaxation and energy}{9}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Changed convergence criteria}{10}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}O$_2$ in vacuum}{10}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Chemical potential}{10}{subsubsection.4.3.1}
+\contentsline {subsection}{\numberline {4.4}Different oxygen vacancies}{10}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}O(I) vacancy}{10}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}O(II) vacancy}{10}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}O(III) vacancy}{10}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Total Energy}{10}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.5}Formation Energy}{11}{subsubsection.4.4.5}
+\contentsline {subsection}{\numberline {4.5}Why the O(I) vacancy?}{11}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}Total density of states}{11}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Isosurfaces}{11}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}Local DOS Ga(II)}{13}{subsubsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.4}Local DOS Ga(I)$_1$}{13}{subsubsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.5}Bond between Ga(I)$_1$ and Ga(I)$_2$?}{14}{subsubsection.4.5.5}
+\contentsline {section}{\numberline {5}Conclusion}{14}{section.5}
