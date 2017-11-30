@@ -3,25 +3,38 @@ The units and uncertainties of the properties in this section are set here. The 
 
 \subsection{Primitive unit cell}
 
-With the decided convergence criteria and the resulting energy cut-off and k-point density, we relaxed the primitive unit cell. Table \ref{tab:ionstep_primitive} shows both the maximum force and the pressure decreasing.
+With the initial decided convergence criteria and the resulting energy cut-off (600 eV) and k-point density (5 Å$^{-1}$), we relaxed the primitive unit cell. Table \ref{tab:ionstep_primitive} shows both the maximum force and the pressure decreasing (ISIF = 3). The relaxation criteria for the force was set to -0.01 eV/Å (EDIFFG = -0.01).
 
 \begin{table}[H]\caption{This table lists the start and stop of the relaxation of the primitive unit cell. Both the maximum force, F$_{max}$, and the pressure, P, is decreasing in the relaxation.}\label{tab:ionstep_primitive}
-\begin{tabular}{rllll}
+\begin{tabular}{ccccc}
 F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
 1.716&	9&	139.52&	0.000&	-119.461\\
 $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
-0.006&	9&	0.42&	0.000&	-120.224\\ \hline
-CPU &time: & & & 685.881 s \\
+0.006&	9&	0.42&	0.000&	-120.224\\
 \end{tabular}
 \end{table}
 
-The total energy per atom with a primitive unit cell was $\frac{E_{tot}}{\# \text{of atoms}} = \frac{•}{•}$ after the relaxation.
+The total energy per atom with a primitive unit cell was $\frac{E_{tot}}{\# \text{ of atoms}} = \frac{-120.249 \text{ eV}}{20} \simeq -6.013 \text{ eV}$ after the relaxation.
 
 \subsubsection{Density of States}
 
-To examine the different oxygen sites, the local density of state for the inequivalent sites were plotted in Figures \ref{fig:ldos_Ga_I} to \ref{fig:ldos_O_III} the total density of state of the primitive unit cell is plotted in Figure \ref{fig:total_dos_primitive}.
+Might get new results with ISMEAR = -5
 
-lDOS - bredden sier om båndene er bånd - ikke så lokaliserte. Bånd til venstre er mer stabile - lenger borte fra fermi nivået.
+To examine the different oxygen sites, the local density of states (DOS) was plotted for the inequivalent sites. The DOS calculations were done with . The local DOS plots for the O(I), O(II) and O(III) are in Figure \ref{fig:ldos_Ga_I}, Figure \ref{fig:ldos_O_II} and Figure \ref{fig:ldos_O_III} respectively.
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_I}\caption{This is a plot of local density of states at the O(I) site.}\label{fig:ldos_O_I}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_II}\caption{This is a plot of local density of states at the O(II) site.}\label{fig:ldos_O_II}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_III}\caption{This is a plot of local density of states at the O(III) site.}\label{fig:ldos_O_III}
+\end{figure}
+
+The structure has two different gallium sites as well, and their local density of states are shown in Figure \ref{fig:ldos_Ga_I} and \ref{fig:ldos_Ga_II}.
 
 \begin{figure}[H]
 \includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I}\caption{This is a plot of local density of state at the Ga(I) site.}\label{fig:ldos_Ga_I}
@@ -31,36 +44,22 @@ lDOS - bredden sier om båndene er bånd - ikke så lokaliserte. Bånd til venst
 \includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_II}\caption{This is a plot of local density of state at the Ga(II) site.}\label{fig:ldos_Ga_II}
 \end{figure}
 
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_I}\caption{This is a plot of local density of state at the O(I) site.}\label{fig:ldos_O_I}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_II}\caption{This is a plot of local density of state at the O(II) site.}\label{fig:ldos_O_II}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_III}\caption{This is a plot of local density of state at the O(III) site.}\label{fig:ldos_O_III}
-\end{figure}
+In the theory we can see that all the oxygen sites are 'bonded' to both gallium sites, but the number of each bonds differ (see \ref{fig:distances}). The p-orbitals with energy, $E-E_{Fermi}$, from -15 eV to 0 eV are in all the local density plots, both the gallium ones and the oxygen ones, indicating bonds between them all. There are also s-orbitals below -17 eV in all plots. There are many states there at the oxygen sites and fewer at the gallium sites. The gallium local DOS plots show some states in the d-orbitals, but oxygen do not, and that is of course what we expect.
 
 \begin{figure}[H]
 \includegraphics[width=\linewidth]{../fig/dosplot/total_dos_primitive_unitcell}\caption{This is a plot of density of state of the primitive unit cell.}\label{fig:total_dos_primitive}
 \end{figure}
 
-In the section about the structure we can see that all the oxygen sites are 'bonded' to both gallium sites, but the number of each bonds differ. We can see the p-orbitals with energy, $E-E_{Fermi}$, form -15 eV to 0 eV in all the local density plots indicating bonds between them all. There is also s-orbitals below -17 eV, but it is very small for the gallium atoms.
+The total density of state of the primitive unit cell is plotted in Figure \ref{fig:total_dos_primitive}. The figures shows three bands in this energy interval, to bands below the Fermi level and the conduction band, of unoccupied states, as a semiconductor should have at temperature O K. The band gap is visual from 0 eV to around 2 eV, this is very small compared to experiments that gives the band gap at around 4.9 eV \cite{dft_ga2o3}. This is expected though because of the use of the simple GGA functional and no other compensation for the normal underestimation of band gap size.
 
 
 \subsubsection{Band structure}
 
-Should do INCAR$_{dos}$ again with ISMEAR -5?
-
-At last we plotted the band structure of $\beta$-Ga$_2$O$_3$ the band gap was found to be 1.8051 eV which is way to small, but a too small band gap is a common error with the simple functionals we are using in this project. Figure \ref{fig:bandstructure_primitive} shows the band structure we plotted after our calculations. Figure \ref{fig:bandstructure_fasit} shows the band structure from an article where they used hybrid functionals and other tricks to get the correct band gap \cite{dft_ga2o3}. 
+At last we plotted the band structure of $\beta$-Ga$_2$O$_3$. The band gap was found to be 1.8051 eV which is way too small. Figure \ref{fig:bandstructure_primitive} shows the band structure we plotted after our calculations. Figure \ref{fig:bandstructure_fasit} shows the band structure from an article where they used hybrid functionals and other tricks to get the correct band gap \cite{dft_ga2o3}. 
 
 The band structure in Figure \ref{fig:bandstructure_primitive} shows that the lowest point in the conduction band is at the $\Gamma$-point (G), and this corresponds with the result in Figure \ref{fig:bandstructure_fasit}. The highest point in the valence band on our band structure is difficult to set, but in the other it is either at the M-point or the $\Gamma$-point.
 
-There seems to be something wrong at the M-point in our calculations because it looks very different form the other one. The band gap of $\beta$-Ga$_2$O$_3$ is indirect, but the difference in the valence band between the $\Gamma$-point and the M-point is so small, that it is practically direct.
-
-\textit{Some more stuff in the discussion?}
+There seems to be something wrong at the M-point in our calculations because it looks very different form the other one. The band gap of $\beta$-Ga$_2$O$_3$ is indirect, but the difference in the valence band between the $\Gamma$-point and the M-point is so small, that it is practically direct \cite{dft_ga2o3}.
 
 \begin{figure}[H]\caption{This is a plot of the band structure of $\beta$-Ga$_2$O$_3$ form our density of states calculations.}\label{fig:bandstructure_primitive}
 \includegraphics[width=\linewidth]{../fig/primitive/bandstructure}
@@ -72,55 +71,43 @@ There seems to be something wrong at the M-point in our calculations because it 
 \end{figure}
 
 
-\subsection{Supercell}
+\subsection{Super cell}
+
+To be able to look at oxygen vacancies without getting extremely high concentrations of them, we increased the primitive cell to a super cell by adding two primitive cells in the y-direction (b-direction) and one in the z-direction (c-direction). 
 
 \subsubsection{Relaxation and energy}
 
-Energy cut-off: 600 eV
+Our first relaxation of the unit cell was done with the initial convergence results of an energy cut-off at 600 eV and a k-point density at 5 Å$^{-1}$ giving a k-mesh of (3x4x3). The convergence for the maximum force was put to only -0.05 eV/Å (EDIFFG = -0.05) and we only relaxed the ions not the cell (ISIF = 2). The result of the relaxation is in Table \ref{tab:ionstep_convergence}
 
-K-mesh: 3x4x3
-
-EDIFFG = -0.05
-
-ISIF = 2
-
-\begin{table}[H]\caption{The ionstep - relaxation of supercell with convergence result.}\label{tab:ionstep_convergence}
+\begin{table}[H]\caption{This table has the first and last relaxation step of supercell with the initial convergence result.}\label{tab:ionstep_convergence}
 \begin{tabular}{rllll}
 F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
 0.443&	49&	134.07&	0.023&	-718.260\\
 $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
-0.009&	25&	109.22&	0.023&	-718.913\\ \hline
+0.009&	25&	109.22&	0.023&	-718.913\\
 CPU &time: & 3546.421 s & & $\approx$ 59 min  \\
 \end{tabular}
 \end{table}
 
+Because the pressure was so big, we had to relax the cell also, and we also wanted to decrease the convergence of the maximum force to 0.01 eV/Å (EDIFFG = -0.01). Because the relaxation were costly already, a decision to make the convergence criteria less strict was made, like described earlier in the method part of this report. The total energy of the super cell after this initial relaxation is given in Table \ref{tab:energy_supercell_after_relax}.
+
 Energy calculation after:
-\begin{table}[H]\caption{The energy output after relaxation of supercell.}\label{tab:energy_supercell_after_relax}
+\begin{table}[H]\caption{The energy output after relaxation of supercell with first relaxation result.}\label{tab:energy_supercell_after_relax}
 \begin{tabular}{llll}
 F$_{max}$ & P&	Drift&	E$_{tot}$\\ \hline
-0.045&	0.023&	2.63	& \ref. \\
 \end{tabular}
 \end{table}
 
 \subsubsection{Changed convergence criteria}
 
-To have less CPU time with super cell I lowered the criteria to:
+The relaxation was then done with the changed convergence results with an energy cut-off at 500 eV and a k-point density at 3 Å$^{-1}$ giving a k-mesh of (2x3x2). The convergence for the maximum force was put to -0.01 eV/Å (EDIFFG = -0.01) and we relaxed both the ions and the cell (ISIF = 3). The result of the relaxation is in Table \ref{tab:ionstep_convergence_new}.
 
-Energy cut-off: 500 eV
-
-K-mesh: 2x3x2 (density 3)
-
-EDIFFG = -0.01
-
-ISIF = 3
-
-\begin{table}[H]\caption{The ionstep - relaxation of supercell with convergence result.}\label{tab:ionstep_convergence}
+\begin{table}[H]\caption{The ionstep - relaxation of supercell with convergence result.}\label{tab:ionstep_convergence_new}
 \begin{tabular}{rllll}
 F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
 0.427&	49&	136.09&	0.023&	-717.821\\
 $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
-0.006&	49&	0.03&	0.024&	-720.914\\ \hline
-CPU &time: &  1763.585 s & & $\approx$ 29 min  \\
+0.006&	49&	0.03&	0.024&	-720.914\\
 \end{tabular}
 \end{table}
 
@@ -132,6 +119,7 @@ F$_{max}$ & P&	Drift&	E$_{tot}$\\ \hline
 \end{tabular}
 \end{table}
 
+The total energy per atom with the super cell was $\frac{E_{tot}}{\# \text{ of atoms}} = \frac{-721.081 \text{ eV}}{120} \simeq -6.009 \text{ eV}$ after the relaxation. The energy per atom is the same as for the primitive unit cell, within the chosen accuracy. 
 
 \subsection{O$_2$ in vacuum}
 
@@ -160,9 +148,7 @@ $$ \mu_O = \frac{1}{2}\mu_{O_2} = \frac{1}{2}\cdot(-9.883) = -4.942 $$
 F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
 2.666&	19&	133.08&	0.142&	-708.492\\
 $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
-0.032&	63&	-0.03&	0.465&	-712.142\\ \hline
-CPU &time: & & & 5127.663 s \\
-& & & &$\approx$ 1 t 25 min\\
+0.032&	63&	-0.03&	0.465&	-712.142\\
 \end{tabular}
 \end{table}
 
@@ -173,8 +159,7 @@ CPU &time: & & & 5127.663 s \\
 F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
 2.391&	20&	135.21&	0.010&	-708.256	\\
 $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
-0.013&	60&	-0.01&	0.143&	-711.709\\ \hline
-CPU &time: & & &  5061.359 s \\
+0.013&	60&	-0.01&	0.143&	-711.709\\
 \end{tabular}
 \end{table}
 
@@ -186,8 +171,7 @@ CPU &time: & & &  5061.359 s \\
 F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
 1.873&	1&	135.42&	0.141&	-707.966	\\
 $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
-0.017&	73&	-0.00&	0.145&	-711.463	\\ \hline
-CPU &time: & & & 5115.230 s \\
+0.017&	73&	-0.00&	0.145&	-711.463	\\
 \end{tabular}
 \end{table}
 
@@ -260,6 +244,8 @@ The difference between the O(I) vacancy with two Ga(I) atoms, that seems to form
 The reason for the bond between two the Ga(I) atoms may come from the shorter length of the O-Ga(I) bond compared to the O-Ga(II) bond (see Figure \ref{fig:distances}). The 'bulb' from the isosurface always occur at the Ga(I) atom, and nothing at the Ga(II) atoms. Maybe the Ga(I) atom has dangling bonds, and the Ga(II) relocate the electrons elsewhere - is that possible? \ref.
 
 \subsubsection{Local DOS Ga(II)}
+
+lDOS - bredden sier om båndene er bånd - ikke så lokaliserte. Bånd til venstre er mer stabile - lenger borte fra fermi nivået.
 
 \begin{figure}[H]
 \includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_II_OI_vac_nabo}\caption{This is a plot of local density of state at the Ga(II) site next to the O(I) vacancy in the super cell.}\label{fig:ldos_Ga_II_nabo}

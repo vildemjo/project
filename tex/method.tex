@@ -40,9 +40,10 @@ VASP. PDE?
 
 \item Calculated energy of oxygen molecule in vacuum
 \subitem EDIFFG = -0.01
+\subitem EDIFF = 1E-5
 \subitem ENCUT = 500
-\subitem ISIF = 3
-\subitem makekpoints -d 3 $\rightarrow$ (2x3x2)
+\subitem ISPIN = 2
+\subitem makekpoints -d 1 $\rightarrow$ (1x1x1)
 
 \item Found formation energy 
 
@@ -88,27 +89,27 @@ Thereafter, we evaluated the necessary k-point density. Figure \ref{fig:totenkpo
 
 Initially the k-point density was put to 5 Å$^{-1}$, for the accuracy to be at 1 meV for the energy. After the change in strictness, only 3 Å$^{-1}$ were necessary to accomplish the criteria of 3 meV for the accuracy of the energy, 1 kbar in pressure and 0.01 eV/Å in force. 
 
-\subsubsection{Oxygen molecule}
-
-We also had to check the convergence of the oxygen molecule in vacuum, to calculate the formation energy. Figure \ref{fig:totencutoff_O2} and \ref{fig:forcepresscutoff_O2} shows the convergence result for this with respect to energy cut-off.
-
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/oxygen/deltatotencurverel.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum with respect to cut-off energy. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:totencutoff_O2}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/oxygen/deltaforcepressrel.pdf}\caption{This is a plot of the change in the relative force and pressure for the oxygen molecule in vacuum with respect to cu-off energy. The relative force and pressure is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:forcepresscutoff_O2}
-\end{figure}
-
-
-The convergence test of the k-point density of the oxygen molecule is in Figure \ref{}
-
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/oxygen/deltatotencurverel_kpoints.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum with respect to k-point density. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:totenkpoint_O2}
-\end{figure}
-
-\begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/oxygen/deltaforcepressrel_kpoints.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:forcepresskpoint_O2}
-\end{figure}
+%\subsubsection{Oxygen molecule}
+%
+%We also had to check the convergence of the oxygen molecule in vacuum, to calculate the formation energy. Figure \ref{fig:totencutoff_O2} and \ref{fig:forcepresscutoff_O2} shows the convergence result for this with respect to energy cut-off. To get the same accuracy as for the gallium oxide super cell a cut-off energy of \ref{} eV is necessary.
+%
+%
+%\begin{figure}[H]
+%\includegraphics[width=\linewidth]{../fig/oxygen/deltatotencurverel.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum with respect to cut-off energy. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:totencutoff_O2}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\includegraphics[width=\linewidth]{../fig/oxygen/deltaforcepressrel.pdf}\caption{This is a plot of the change in the relative force and pressure for the oxygen molecule in vacuum with respect to cu-off energy. The relative force and pressure is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:forcepresscutoff_O2}
+%\end{figure}
+%
+%
+%The convergence test with respect to the k-point density of the oxygen molecule is in Figure \ref{fig:totenkpoint_O2} and \ref{fig:forcepresskpoint_O2}. To get the same accuracy as for the gallium oxide a k-point density of \ref{} Å$^{-1}$ is necessary.
+%
+%
+%\begin{figure}[H]
+%\includegraphics[width=\linewidth]{../fig/oxygen/deltatotencurverel_kpoints.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum with respect to k-point density. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:totenkpoint_O2}
+%\end{figure}
+%
+%\begin{figure}[H]
+%\includegraphics[width=\linewidth]{../fig/oxygen/deltaforcepressrel_kpoints.pdf}\caption{This is a plot of the change in the relative energy for the oxygen molecule in vacuum. The relative energy is the difference between the oxygen molecule with the normal bond length and a longer bond length.}\label{fig:forcepresskpoint_O2}
+%\end{figure}

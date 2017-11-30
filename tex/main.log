@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  30 NOV 2017 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  30 NOV 2017 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,13 +1067,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./abstract.tex)
-(./main.toc [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(./main.toc)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [2]
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 (./introduction.tex) (./theory.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1117,14 +1117,14 @@ Overfull \hbox (3.5187pt too wide) in paragraph at lines 3--4
 2 -Ga$[]$O$[]$ is base-centered
  []
 
-<../fig/unitcell.jpg, id=218, 711.65875pt x 435.6275pt>
+<../fig/unitcell.jpg, id=192, 711.65875pt x 435.6275pt>
 File: ../fig/unitcell.jpg Graphic file (type jpg)
 
 <use ../fig/unitcell.jpg>
 Package pdftex.def Info: ../fig/unitcell.jpg used on input line 15.
 (pdftex.def)             Requested size: 250.39151pt x 153.26956pt.
 
-<../fig/Ga2O3-different-sites-names.jpg, id=219, 1594.95876pt x 937.5025pt>
+<../fig/Ga2O3-different-sites-names.jpg, id=193, 1594.95876pt x 937.5025pt>
 File: ../fig/Ga2O3-different-sites-names.jpg Graphic file (type jpg)
 
 <use ../fig/Ga2O3-different-sites-names.jpg>
@@ -1132,20 +1132,20 @@ Package pdftex.def Info: ../fig/Ga2O3-different-sites-names.jpg used on input l
 ine 19.
 (pdftex.def)             Requested size: 250.39151pt x 147.17105pt.
 
-<../fig/Ga2O3-Ga-sites.jpg, id=220, 1594.95876pt x 937.5025pt>
+<../fig/Ga2O3-Ga-sites.jpg, id=194, 1594.95876pt x 937.5025pt>
 File: ../fig/Ga2O3-Ga-sites.jpg Graphic file (type jpg)
 
 <use ../fig/Ga2O3-Ga-sites.jpg>
 Package pdftex.def Info: ../fig/Ga2O3-Ga-sites.jpg used on input line 23.
 (pdftex.def)             Requested size: 250.39151pt x 147.17105pt.
 
-<../fig/distances.jpg, id=221, 429.605pt x 403.5075pt>
+<../fig/distances.jpg, id=195, 429.605pt x 403.5075pt>
 File: ../fig/distances.jpg Graphic file (type jpg)
 
 <use ../fig/distances.jpg>
 Package pdftex.def Info: ../fig/distances.jpg used on input line 27.
 (pdftex.def)             Requested size: 250.39151pt x 235.18587pt.
- [3
+ [2
 
  <../fig/unitcell.jpg> <../fig/Ga2O3-different-sites-names.jpg> <../fig/Ga2O3-G
 a-sites.jpg>]
@@ -1154,11 +1154,11 @@ Overfull \hbox (2.95508pt too wide) in paragraph at lines 42--43
  []
 
 
-LaTeX Warning: Reference `.' on page 4 undefined on input line 50.
+LaTeX Warning: Reference `.' on page 3 undefined on input line 50.
 
-[4 <../fig/distances.jpg>]
+[3 <../fig/distances.jpg>]
 
-LaTeX Warning: Reference `.' on page 5 undefined on input line 60.
+LaTeX Warning: Reference `.' on page 4 undefined on input line 60.
 
 ) (./method.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
@@ -1178,339 +1178,277 @@ Overfull \hbox (2.83128pt too wide) in paragraph at lines 41--42
  []
 
 
-Overfull \hbox (4.78365pt too wide) in paragraph at lines 49--50
+Overfull \hbox (4.78365pt too wide) in paragraph at lines 50--51
 []\T1/cmr/m/n/12 Plotted lo-cal DOS near va-cancy and far away
  []
 
-[5] <../fig/deltatotencurverel.pdf, id=258, 433.62pt x 289.08pt>
+[4] <../fig/deltatotencurverel.pdf, id=238, 433.62pt x 289.08pt>
 File: ../fig/deltatotencurverel.pdf Graphic file (type pdf)
 
 <use ../fig/deltatotencurverel.pdf>
-Package pdftex.def Info: ../fig/deltatotencurverel.pdf used on input line 66.
+Package pdftex.def Info: ../fig/deltatotencurverel.pdf used on input line 67.
 (pdftex.def)             Requested size: 250.39151pt x 166.92987pt.
 
-<../fig/deltaforcepressrel.pdf, id=260, 433.62pt x 578.16pt>
+<../fig/deltaforcepressrel.pdf, id=240, 433.62pt x 578.16pt>
 File: ../fig/deltaforcepressrel.pdf Graphic file (type pdf)
 
 <use ../fig/deltaforcepressrel.pdf>
-Package pdftex.def Info: ../fig/deltaforcepressrel.pdf used on input line 72.
+Package pdftex.def Info: ../fig/deltaforcepressrel.pdf used on input line 73.
 (pdftex.def)             Requested size: 250.39151pt x 333.85976pt.
 
-<../fig/deltatotencurverel_kpoints.pdf, id=265, 433.62pt x 289.08pt>
+<../fig/deltatotencurverel_kpoints.pdf, id=245, 433.62pt x 289.08pt>
 File: ../fig/deltatotencurverel_kpoints.pdf Graphic file (type pdf)
 
 <use ../fig/deltatotencurverel_kpoints.pdf>
 Package pdftex.def Info: ../fig/deltatotencurverel_kpoints.pdf used on input li
-ne 82.
+ne 83.
 (pdftex.def)             Requested size: 250.39151pt x 166.92987pt.
- [6 <../fig/deltatotencurverel.pdf> <../fig/deltaforcepressrel.pdf
+ [5 <../fig/deltatotencurverel.pdf> <../fig/deltaforcepressrel.pdf
 
 pdfTeX warning: pdflatex (file ../fig/deltaforcepressrel.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <../fig/deltaforcepressrel_kpoints.pdf, id=413, 433.62pt x 505.89pt>
+>] <../fig/deltaforcepressrel_kpoints.pdf, id=392, 433.62pt x 505.89pt>
 File: ../fig/deltaforcepressrel_kpoints.pdf Graphic file (type pdf)
 
 <use ../fig/deltaforcepressrel_kpoints.pdf>
 Package pdftex.def Info: ../fig/deltaforcepressrel_kpoints.pdf used on input li
-ne 86.
+ne 87.
 (pdftex.def)             Requested size: 250.39151pt x 292.12727pt.
+) (./result.tex
+<../fig/dosplot/ldos_O_I.png, id=397, 395.4775pt x 322.20375pt>
+File: ../fig/dosplot/ldos_O_I.png Graphic file (type png)
 
-<../fig/oxygen/deltatotencurverel.pdf, id=416, 433.62pt x 289.08pt>
-File: ../fig/oxygen/deltatotencurverel.pdf Graphic file (type pdf)
-
-<use ../fig/oxygen/deltatotencurverel.pdf>
-Package pdftex.def Info: ../fig/oxygen/deltatotencurverel.pdf used on input lin
-e 97.
-(pdftex.def)             Requested size: 250.39151pt x 166.92987pt.
-
-<../fig/oxygen/deltaforcepressrel.pdf, id=417, 433.62pt x 578.16pt>
-File: ../fig/oxygen/deltaforcepressrel.pdf Graphic file (type pdf)
-
-<use ../fig/oxygen/deltaforcepressrel.pdf>
-Package pdftex.def Info: ../fig/oxygen/deltaforcepressrel.pdf used on input lin
-e 101.
-(pdftex.def)             Requested size: 250.39151pt x 333.85976pt.
- [7 <../fig/deltatotencurverel_kpoints.pdf> <../fig/deltaforcepressrel_kpoints.
+<use ../fig/dosplot/ldos_O_I.png>
+Package pdftex.def Info: ../fig/dosplot/ldos_O_I.png used on input line 26.
+(pdftex.def)             Requested size: 250.39151pt x 204.00221pt.
+ [6 <../fig/deltatotencurverel_kpoints.pdf> <../fig/deltaforcepressrel_kpoints.
 pdf
 
 pdfTeX warning: pdflatex (file ../fig/deltaforcepressrel_kpoints.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
-> <../fig/oxygen/deltatotencurverel.pdf
-
-pdfTeX warning: pdflatex (file ../fig/oxygen/deltatotencurverel.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Reference `' on page 8 undefined on input line 105.
-
-<../fig/oxygen/deltatotencurverel_kpoints.pdf, id=630, 433.62pt x 289.08pt>
-File: ../fig/oxygen/deltatotencurverel_kpoints.pdf Graphic file (type pdf)
-
-<use ../fig/oxygen/deltatotencurverel_kpoints.pdf>
-Package pdftex.def Info: ../fig/oxygen/deltatotencurverel_kpoints.pdf used on i
-nput line 109.
-(pdftex.def)             Requested size: 250.39151pt x 166.92987pt.
-
-<../fig/oxygen/deltaforcepressrel_kpoints.pdf, id=631, 433.62pt x 505.89pt>
-File: ../fig/oxygen/deltaforcepressrel_kpoints.pdf Graphic file (type pdf)
-
-<use ../fig/oxygen/deltaforcepressrel_kpoints.pdf>
-Package pdftex.def Info: ../fig/oxygen/deltaforcepressrel_kpoints.pdf used on i
-nput line 113.
-(pdftex.def)             Requested size: 250.39151pt x 292.12727pt.
-) (./result.tex
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 18.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 18.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 18.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 18.
-
-[8 <../fig/oxygen/deltaforcepressrel.pdf> <../fig/oxygen/deltatotencurverel_kpo
-ints.pdf
-
-pdfTeX warning: pdflatex (file ../fig/oxygen/deltatotencurverel_kpoints.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <../fig/oxygen/deltaforcepressrel_kpoints.pdf
-
-pdfTeX warning: pdflatex (file ../fig/oxygen/deltaforcepressrel_kpoints.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
->] <../fig/dosplot/ldos_Ga_I.png, id=865, 382.42876pt x 312.16624pt>
-File: ../fig/dosplot/ldos_Ga_I.png Graphic file (type png)
-
-<use ../fig/dosplot/ldos_Ga_I.png>
-Package pdftex.def Info: ../fig/dosplot/ldos_Ga_I.png used on input line 27.
-(pdftex.def)             Requested size: 250.39151pt x 204.38702pt.
-
-<../fig/dosplot/ldos_Ga_II.png, id=867, 399.4925pt x 328.22626pt>
-File: ../fig/dosplot/ldos_Ga_II.png Graphic file (type png)
-
-<use ../fig/dosplot/ldos_Ga_II.png>
-Package pdftex.def Info: ../fig/dosplot/ldos_Ga_II.png used on input line 31.
-(pdftex.def)             Requested size: 250.39151pt x 205.72687pt.
-
-<../fig/dosplot/ldos_O_I.png, id=868, 395.4775pt x 322.20375pt>
-File: ../fig/dosplot/ldos_O_I.png Graphic file (type png)
-
-<use ../fig/dosplot/ldos_O_I.png>
-Package pdftex.def Info: ../fig/dosplot/ldos_O_I.png used on input line 35.
-(pdftex.def)             Requested size: 250.39151pt x 204.00221pt.
-
-<../fig/dosplot/ldos_O_II.png, id=869, 372.39125pt x 307.1475pt>
+>] <../fig/dosplot/ldos_O_II.png, id=555, 372.39125pt x 307.1475pt>
 File: ../fig/dosplot/ldos_O_II.png Graphic file (type png)
 
 <use ../fig/dosplot/ldos_O_II.png>
-Package pdftex.def Info: ../fig/dosplot/ldos_O_II.png used on input line 39.
+Package pdftex.def Info: ../fig/dosplot/ldos_O_II.png used on input line 30.
 (pdftex.def)             Requested size: 250.39151pt x 206.52824pt.
 
-<../fig/dosplot/ldos_O_III.png, id=870, 402.50375pt x 335.2525pt>
+<../fig/dosplot/ldos_O_III.png, id=556, 402.50375pt x 335.2525pt>
 File: ../fig/dosplot/ldos_O_III.png Graphic file (type png)
 
 <use ../fig/dosplot/ldos_O_III.png>
-Package pdftex.def Info: ../fig/dosplot/ldos_O_III.png used on input line 43.
+Package pdftex.def Info: ../fig/dosplot/ldos_O_III.png used on input line 34.
 (pdftex.def)             Requested size: 250.39151pt x 208.55522pt.
- [9 <../fig/dosplot/ldos_Ga_I.png> <../fig/dosplot/ldos_Ga_II.png> <../fig/dosp
-lot/ldos_O_I.png> <../fig/dosplot/ldos_O_II.png>]
-<../fig/dosplot/total_dos_primitive_unitcell.png, id=887, 350.30875pt x 279.042
+
+<../fig/dosplot/ldos_Ga_I.png, id=559, 382.42876pt x 312.16624pt>
+File: ../fig/dosplot/ldos_Ga_I.png Graphic file (type png)
+
+<use ../fig/dosplot/ldos_Ga_I.png>
+Package pdftex.def Info: ../fig/dosplot/ldos_Ga_I.png used on input line 40.
+(pdftex.def)             Requested size: 250.39151pt x 204.38702pt.
+
+<../fig/dosplot/ldos_Ga_II.png, id=560, 399.4925pt x 328.22626pt>
+File: ../fig/dosplot/ldos_Ga_II.png Graphic file (type png)
+
+<use ../fig/dosplot/ldos_Ga_II.png>
+Package pdftex.def Info: ../fig/dosplot/ldos_Ga_II.png used on input line 44.
+(pdftex.def)             Requested size: 250.39151pt x 205.72687pt.
+ [7 <../fig/dosplot/ldos_O_I.png> <../fig/dosplot/ldos_O_II.png> <../fig/dosplo
+t/ldos_O_III.png> <../fig/dosplot/ldos_Ga_I.png>]
+<../fig/dosplot/total_dos_primitive_unitcell.png, id=573, 350.30875pt x 279.042
 5pt>
 File: ../fig/dosplot/total_dos_primitive_unitcell.png Graphic file (type png)
  <use ../fig/dosplot/total_dos_primitive_unitcell.png>
 Package pdftex.def Info: ../fig/dosplot/total_dos_primitive_unitcell.png used o
-n input line 47.
+n input line 50.
 (pdftex.def)             Requested size: 250.39151pt x 199.45851pt.
 
-<../fig/primitive/bandstructure.png, id=893, 390.45876pt x 314.17375pt>
+<../fig/primitive/bandstructure.png, id=582, 390.45876pt x 314.17375pt>
 File: ../fig/primitive/bandstructure.png Graphic file (type png)
 
 <use ../fig/primitive/bandstructure.png>
 Package pdftex.def Info: ../fig/primitive/bandstructure.png used on input line 
-66.
+65.
 (pdftex.def)             Requested size: 250.39151pt x 201.47319pt.
 
-<../fig/band_structure.png, id=896, 1035.87pt x 628.3475pt>
+<../fig/band_structure.png, id=585, 1035.87pt x 628.3475pt>
 File: ../fig/band_structure.png Graphic file (type png)
 
 <use ../fig/band_structure.png>
-Package pdftex.def Info: ../fig/band_structure.png used on input line 71.
+Package pdftex.def Info: ../fig/band_structure.png used on input line 70.
 (pdftex.def)             Requested size: 250.39151pt x 151.88031pt.
- [10 <../fig/dosplot/ldos_O_III.png> <../fig/dosplot/total_dos_primitive_unitce
-ll.png> <../fig/primitive/bandstructure.png>]
+ [8 <../fig/dosplot/ldos_Ga_II.png> <../fig/dosplot/total_dos_primitive_unitcel
+l.png> <../fig/primitive/bandstructure.png>]
 
-LaTeX Warning: Reference `.' on page 11 undefined on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 136.
+LaTeX Warning: Reference `tab:ionstep_convergence_new' on page 9 undefined on i
+nput line 103.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 136.
+(hyperref)                removing `math shift' on input line 124.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 136.
+(hyperref)                removing `subscript' on input line 124.
 
-[11 <../fig/band_structure.png>]
-Overfull \hbox (12.81392pt too wide) in paragraph at lines 211--217
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
+[9 <../fig/band_structure.png>]
+Overfull \hbox (12.81392pt too wide) in paragraph at lines 195--201
 [][] 
  []
 
-<../fig/dosplot/total_dos_O_I_vacancy.png, id=918, 410.53375pt x 323.2075pt>
+<../fig/dosplot/total_dos_O_I_vacancy.png, id=608, 410.53375pt x 323.2075pt>
 File: ../fig/dosplot/total_dos_O_I_vacancy.png Graphic file (type png)
 
 <use ../fig/dosplot/total_dos_O_I_vacancy.png>
 Package pdftex.def Info: ../fig/dosplot/total_dos_O_I_vacancy.png used on input
- line 227.
+ line 211.
 (pdftex.def)             Requested size: 250.39151pt x 197.1267pt.
 
-<../fig/dosplot/total_dos_supercell.png, id=919, 452.69125pt x 340.27126pt>
+<../fig/dosplot/total_dos_supercell.png, id=609, 452.69125pt x 340.27126pt>
 File: ../fig/dosplot/total_dos_supercell.png Graphic file (type png)
 
 <use ../fig/dosplot/total_dos_supercell.png>
 Package pdftex.def Info: ../fig/dosplot/total_dos_supercell.png used on input l
-ine 231.
+ine 215.
 (pdftex.def)             Requested size: 250.39151pt x 188.20895pt.
-
-<../fig/isosurfaces/O_I/isosurface.jpg, id=922, 397.485pt x 336.25626pt>
+ [10 <../fig/dosplot/total_dos_O_I_vacancy.png>]
+<../fig/isosurfaces/O_I/isosurface.jpg, id=624, 397.485pt x 336.25626pt>
 File: ../fig/isosurfaces/O_I/isosurface.jpg Graphic file (type jpg)
 
 <use ../fig/isosurfaces/O_I/isosurface.jpg>
 Package pdftex.def Info: ../fig/isosurfaces/O_I/isosurface.jpg used on input li
-ne 239.
+ne 223.
 (pdftex.def)             Requested size: 225.35083pt x 190.64188pt.
- [12 <../fig/dosplot/total_dos_O_I_vacancy.png> <../fig/dosplot/total_dos_super
-cell.png>]
-<../fig/isosurfaces/O_I/bond.jpg, id=940, 294.09875pt x 347.2975pt>
+
+<../fig/isosurfaces/O_I/bond.jpg, id=627, 294.09875pt x 347.2975pt>
 File: ../fig/isosurfaces/O_I/bond.jpg Graphic file (type jpg)
 
 <use ../fig/isosurfaces/O_I/bond.jpg>
-Package pdftex.def Info: ../fig/isosurfaces/O_I/bond.jpg used on input line 243
+Package pdftex.def Info: ../fig/isosurfaces/O_I/bond.jpg used on input line 227
 .
 (pdftex.def)             Requested size: 175.27328pt x 206.97578pt.
 
-<../fig/isosurfaces/O_II/isosurface.jpg, id=942, 471.7625pt x 392.46625pt>
+<../fig/isosurfaces/O_II/isosurface.jpg, id=629, 471.7625pt x 392.46625pt>
 File: ../fig/isosurfaces/O_II/isosurface.jpg Graphic file (type jpg)
 
 <use ../fig/isosurfaces/O_II/isosurface.jpg>
 Package pdftex.def Info: ../fig/isosurfaces/O_II/isosurface.jpg used on input l
-ine 249.
+ine 233.
 (pdftex.def)             Requested size: 250.39151pt x 208.30553pt.
-
-<../fig/isosurfaces/O_III/isosurface.jpg, id=944, 305.14pt x 522.95375pt>
+ [11 <../fig/dosplot/total_dos_supercell.png> <../fig/isosurfaces/O_I/isosurfac
+e.jpg> <../fig/isosurfaces/O_I/bond.jpg> <../fig/isosurfaces/O_II/isosurface.jp
+g>]
+<../fig/isosurfaces/O_III/isosurface.jpg, id=641, 305.14pt x 522.95375pt>
 File: ../fig/isosurfaces/O_III/isosurface.jpg Graphic file (type jpg)
 
 <use ../fig/isosurfaces/O_III/isosurface.jpg>
 Package pdftex.def Info: ../fig/isosurfaces/O_III/isosurface.jpg used on input 
-line 255.
+line 239.
 (pdftex.def)             Requested size: 175.27328pt x 300.39284pt.
 
-Underfull \hbox (badness 1052) in paragraph at lines 255--255
+Underfull \hbox (badness 1052) in paragraph at lines 239--239
 []\T1/cmr/m/n/10 Figure 4.14: |This fig-ure shows the oxy-gen va-cancy
  []
 
-[13 <../fig/isosurfaces/O_I/isosurface.jpg> <../fig/isosurfaces/O_I/bond.jpg> <
-../fig/isosurfaces/O_II/isosurface.jpg> <../fig/isosurfaces/O_III/isosurface.jp
-g>]
 
-LaTeX Warning: Reference `.' on page 14 undefined on input line 260.
+LaTeX Warning: Reference `.' on page 12 undefined on input line 244.
 
-<../fig/dosplot/ldos_Ga_II_OI_vac_nabo.png, id=953, 425.59pt x 359.3425pt>
+<../fig/dosplot/ldos_Ga_II_OI_vac_nabo.png, id=643, 425.59pt x 359.3425pt>
 File: ../fig/dosplot/ldos_Ga_II_OI_vac_nabo.png Graphic file (type png)
 
 <use ../fig/dosplot/ldos_Ga_II_OI_vac_nabo.png>
 Package pdftex.def Info: ../fig/dosplot/ldos_Ga_II_OI_vac_nabo.png used on inpu
-t line 265.
+t line 251.
 (pdftex.def)             Requested size: 250.39151pt x 211.41805pt.
 
-<../fig/dosplot/ldos_Ga_II_supercell.png, id=954, 404.51125pt x 330.23375pt>
+<../fig/dosplot/ldos_Ga_II_supercell.png, id=644, 404.51125pt x 330.23375pt>
 File: ../fig/dosplot/ldos_Ga_II_supercell.png Graphic file (type png)
 
 <use ../fig/dosplot/ldos_Ga_II_supercell.png>
 Package pdftex.def Info: ../fig/dosplot/ldos_Ga_II_supercell.png used on input 
-line 269.
+line 255.
 (pdftex.def)             Requested size: 250.39151pt x 204.41527pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 272.
+(hyperref)                removing `math shift' on input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 272.
+(hyperref)                removing `subscript' on input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 272.
+(hyperref)                removing `math shift' on input line 258.
 
-<../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png, id=955, 434.62375pt x 356.33125pt>
+<../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png, id=645, 434.62375pt x 356.33125pt>
 File: ../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png Graphic file (type png)
 
 <use ../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png>
 Package pdftex.def Info: ../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png used on input
- line 275.
+ line 261.
 (pdftex.def)             Requested size: 250.39151pt x 205.29121pt.
-
-<../fig/dosplot/ldos_Ga_I_supercell.png, id=956, 457.71pt x 369.38pt>
+ [12 <../fig/isosurfaces/O_III/isosurface.jpg> <../fig/dosplot/ldos_Ga_II_OI_va
+c_nabo.png> <../fig/dosplot/ldos_Ga_II_supercell.png>]
+<../fig/dosplot/ldos_Ga_I_supercell.png, id=654, 457.71pt x 369.38pt>
 File: ../fig/dosplot/ldos_Ga_I_supercell.png Graphic file (type png)
 
 <use ../fig/dosplot/ldos_Ga_I_supercell.png>
 Package pdftex.def Info: ../fig/dosplot/ldos_Ga_I_supercell.png used on input l
-ine 279.
+ine 265.
 (pdftex.def)             Requested size: 250.39151pt x 202.07182pt.
- [14 <../fig/dosplot/ldos_Ga_II_OI_vac_nabo.png> <../fig/dosplot/ldos_Ga_II_sup
-ercell.png> <../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 282.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 282.
+(hyperref)                removing `math shift' on input line 268.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 282.
+(hyperref)                removing `subscript' on input line 268.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 282.
+(hyperref)                removing `math shift' on input line 268.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 282.
+(hyperref)                removing `math shift' on input line 268.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 282.
+(hyperref)                removing `subscript' on input line 268.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 268.
 
 File: ../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png Graphic file (type png)
 <use ../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png>
 Package pdftex.def Info: ../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png used on input
- line 285.
+ line 271.
 (pdftex.def)             Requested size: 250.39151pt x 205.29121pt.
 
-<../fig/dosplot/ldos_Ga_I_OI_vac_nabo2.png, id=967, 436.63126pt x 350.30875pt>
+<../fig/dosplot/ldos_Ga_I_OI_vac_nabo2.png, id=655, 436.63126pt x 350.30875pt>
 File: ../fig/dosplot/ldos_Ga_I_OI_vac_nabo2.png Graphic file (type png)
 
 <use ../fig/dosplot/ldos_Ga_I_OI_vac_nabo2.png>
 Package pdftex.def Info: ../fig/dosplot/ldos_Ga_I_OI_vac_nabo2.png used on inpu
-t line 289.
+t line 275.
 (pdftex.def)             Requested size: 250.39151pt x 200.8861pt.
-) (./conclusion.tex) [15 <../fig/dosplot/ldos_Ga_I_supercell.png> <../fig/dospl
-ot/ldos_Ga_I_OI_vac_nabo2.png>]
-(./main.bbl
+) (./conclusion.tex) [13 <../fig/dosplot/ldos_Ga_I_OI_vac_nabo.png> <../fig/dos
+plot/ldos_Ga_I_supercell.png> <../fig/dosplot/ldos_Ga_I_OI_vac_nabo2.png>] (./m
+ain.bbl
 Underfull \hbox (badness 2856) in paragraph at lines 4--7
 []\T1/cmr/m/n/12 JB Var-ley, JR We-ber, A Jan-otti, and
  []
 
 ) (./appendix.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
- [16
+ [14
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
@@ -1518,7 +1456,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BE09454387C8606C064AFCC5CC3DDABB;2437.
+(rerunfilecheck)             Checksum: 713F0F928477DFF011E145D66E2CF561;2272.
 
 
 LaTeX Warning: There were undefined references.
@@ -1528,21 +1466,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13747 strings out of 494910
- 198490 string characters out of 6179836
- 383742 words of memory out of 5000000
- 16601 multiletter control sequences out of 15000+600000
+ 13713 strings out of 494910
+ 197483 string characters out of 6179836
+ 384742 words of memory out of 5000000
+ 16578 multiletter control sequences out of 15000+600000
  26086 words of font info for 73 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 48i,13n,77p,985b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,77p,985b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/vildemari/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </ho
 me/vildemari/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/vild
 emari/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/vildemari/.
 texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/vildemari/.texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/vildemari/.texmf-var/font
+ar/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/vildemari/.texmf-var/font
 s/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/vildemari/.texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx1440.600pk> </home/vildemari/.texmf-var/fonts/pk/ljfour/jk
-nappen/ec/ecrm1095.600pk> </home/vildemari/.texmf-var/fonts/pk/ljfour/jknappen/
+four/jknappen/ec/ecrm1095.600pk> </home/vildemari/.texmf-var/fonts/pk/ljfour/jk
+nappen/ec/ecbx1728.600pk> </home/vildemari/.texmf-var/fonts/pk/ljfour/jknappen/
 ec/ecbx1095.600pk> </home/vildemari/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
 1440.600pk> </home/vildemari/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.60
 0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1558,10 +1496,10 @@ s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (16 pages, 2202809 bytes).
+Output written on main.pdf (14 pages, 2117355 bytes).
 PDF statistics:
- 1511 PDF objects out of 1728 (max. 8388607)
- 600 compressed objects within 6 object streams
- 108 named destinations out of 1000 (max. 500000)
- 444 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1181 PDF objects out of 1200 (max. 8388607)
+ 498 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
