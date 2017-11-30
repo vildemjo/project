@@ -18,36 +18,34 @@ The total energy per atom with a primitive unit cell was $\frac{E_{tot}}{\# \tex
 
 \subsubsection{Density of States}
 
-Might get new results with ISMEAR = -5
-
-To examine the different oxygen sites, the local density of states (DOS) was plotted for the inequivalent sites. The DOS calculations were done with . The local DOS plots for the O(I), O(II) and O(III) are in Figure \ref{fig:ldos_Ga_I}, Figure \ref{fig:ldos_O_II} and Figure \ref{fig:ldos_O_III} respectively.
+To examine the different oxygen sites, the local density of states (DOS) was plotted for the inequivalent sites. The local DOS plots for the O(I), O(II) and O(III) are in Figure \ref{fig:ldos_Ga_I}, Figure \ref{fig:ldos_O_II} and Figure \ref{fig:ldos_O_III} respectively.
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_I}\caption{This is a plot of local density of states at the O(I) site.}\label{fig:ldos_O_I}
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_I_primitive}\caption{This is a plot of local density of states at the O(I) site.}\label{fig:ldos_O_I}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_II}\caption{This is a plot of local density of states at the O(II) site.}\label{fig:ldos_O_II}
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_II_primitive}\caption{This is a plot of local density of states at the O(II) site.}\label{fig:ldos_O_II}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_III}\caption{This is a plot of local density of states at the O(III) site.}\label{fig:ldos_O_III}
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_O_III_primitive}\caption{This is a plot of local density of states at the O(III) site.}\label{fig:ldos_O_III}
 \end{figure}
 
 The structure has two different gallium sites as well, and their local density of states are shown in Figure \ref{fig:ldos_Ga_I} and \ref{fig:ldos_Ga_II}.
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I}\caption{This is a plot of local density of state at the Ga(I) site.}\label{fig:ldos_Ga_I}
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_I_primitive}\caption{This is a plot of local density of state at the Ga(I) site.}\label{fig:ldos_Ga_I}
 \end{figure}
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_II}\caption{This is a plot of local density of state at the Ga(II) site.}\label{fig:ldos_Ga_II}
+\includegraphics[width=\linewidth]{../fig/dosplot/ldos_Ga_II_primitive}\caption{This is a plot of local density of state at the Ga(II) site.}\label{fig:ldos_Ga_II}
 \end{figure}
 
 In the theory we can see that all the oxygen sites are 'bonded' to both gallium sites, but the number of each bonds differ (see \ref{fig:distances}). The p-orbitals with energy, $E-E_{Fermi}$, from -15 eV to 0 eV are in all the local density plots, both the gallium ones and the oxygen ones, indicating bonds between them all. There are also s-orbitals below -17 eV in all plots. There are many states there at the oxygen sites and fewer at the gallium sites. The gallium local DOS plots show some states in the d-orbitals, but oxygen do not, and that is of course what we expect.
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/dosplot/total_dos_primitive_unitcell}\caption{This is a plot of density of state of the primitive unit cell.}\label{fig:total_dos_primitive}
+\includegraphics[width=\linewidth]{../fig/dosplot/total_DOS_primitive}\caption{This is a plot of density of state of the primitive unit cell.}\label{fig:total_dos_primitive}
 \end{figure}
 
 The total density of state of the primitive unit cell is plotted in Figure \ref{fig:total_dos_primitive}. The figures shows three bands in this energy interval, to bands below the Fermi level and the conduction band, of unoccupied states, as a semiconductor should have at temperature O K. The band gap is visual from 0 eV to around 2 eV, this is very small compared to experiments that gives the band gap at around 4.9 eV \cite{dft_ga2o3}. This is expected though because of the use of the simple GGA functional and no other compensation for the normal underestimation of band gap size.
@@ -65,7 +63,6 @@ There seems to be something wrong at the M-point in our calculations because it 
 \includegraphics[width=\linewidth]{../fig/primitive/bandstructure}
 \end{figure}
 
-
 \begin{figure}[H]\caption{This is a plot of the band structure taken from an article that did DFT on $\beta$-Ga$_2$O$_3$ with hybrid density functionals \cite{dft_ga2o3}.}\label{fig:bandstructure_fasit}
 \includegraphics[width=\linewidth]{../fig/band_structure}
 \end{figure}
@@ -77,7 +74,7 @@ To be able to look at oxygen vacancies without getting extremely high concentrat
 
 \subsubsection{Relaxation and energy}
 
-Our first relaxation of the unit cell was done with the initial convergence results of an energy cut-off at 600 eV and a k-point density at 5 Å$^{-1}$ giving a k-mesh of (3x4x3). The convergence for the maximum force was put to only -0.05 eV/Å (EDIFFG = -0.05) and we only relaxed the ions not the cell (ISIF = 2). The result of the relaxation is in Table \ref{tab:ionstep_convergence}
+Our first relaxation of the unit cell was done with the initial convergence results of an energy cut-off at 600 eV and a k-point density at 5 Å$^{-1}$ giving a k-mesh of (3x4x3). The convergence for the maximum force was put to only -0.05 eV/Å (EDIFFG = -0.05) and we only relaxed the ions not the cell (ISIF = 2). The result of the relaxation is in Table \ref{tab:ionstep_convergence}.
 
 \begin{table}[H]\caption{This table has the first and last relaxation step of supercell with the initial convergence result.}\label{tab:ionstep_convergence}
 \begin{tabular}{rllll}
@@ -89,7 +86,7 @@ CPU &time: & 3546.421 s & & $\approx$ 59 min  \\
 \end{tabular}
 \end{table}
 
-Because the pressure was so big, we had to relax the cell also, and we also wanted to decrease the convergence of the maximum force to 0.01 eV/Å (EDIFFG = -0.01). Because the relaxation were costly already, a decision to make the convergence criteria less strict was made, like described earlier in the method part of this report. The total energy of the super cell after this initial relaxation is given in Table \ref{tab:energy_supercell_after_relax}.
+Because the pressure was so big, we wanted to relax the cell as well. We also wanted to decrease the convergence of the maximum force to 0.01 eV/Å (EDIFFG = -0.01) to match the convergence criteria of the force. Because the relaxation calculation was costly already, a decision to make the convergence criteria less strict was made. It was done like described earlier in the method part of this report. The total energy of the super cell after the initial relaxation is given in Table \ref{tab:energy_supercell_after_relax}.
 
 Energy calculation after:
 \begin{table}[H]\caption{The energy output after relaxation of supercell with first relaxation result.}\label{tab:energy_supercell_after_relax}
@@ -100,9 +97,9 @@ F$_{max}$ & P&	Drift&	E$_{tot}$\\ \hline
 
 \subsubsection{Changed convergence criteria}
 
-The relaxation was then done with the changed convergence results with an energy cut-off at 500 eV and a k-point density at 3 Å$^{-1}$ giving a k-mesh of (2x3x2). The convergence for the maximum force was put to -0.01 eV/Å (EDIFFG = -0.01) and we relaxed both the ions and the cell (ISIF = 3). The result of the relaxation is in Table \ref{tab:ionstep_convergence_new}.
+The relaxation was then done with the changed convergence results with an energy cut-off at 500 eV and a k-point density at 3 Å$^{-1}$ giving a k-mesh of (2x3x2). The convergence for the maximum force was put to -0.01 eV/Å (EDIFFG = -0.01) and we relaxed both the ions and the cell (ISIF = 3). The result of the relaxation is in Table \ref{tab:ionstep_convergence_new} and the total energy of the super cell calculated from the relaxed structure is in Table \ref{tab:energy_supercell_after_relax_new}.
 
-\begin{table}[H]\caption{The ionstep - relaxation of supercell with convergence result.}\label{tab:ionstep_convergence_new}
+\begin{table}[H]\caption{This table has the first and last relaxation step of supercell with the changed convergence criteria.}\label{tab:ionstep_convergence_new}
 \begin{tabular}{rllll}
 F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
 0.427&	49&	136.09&	0.023&	-717.821\\
@@ -111,8 +108,7 @@ $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
 \end{tabular}
 \end{table}
 
-Energy calculation after:
-\begin{table}[H]\caption{The energy output after relaxation of supercell.}\label{tab:energy_supercell_after_relax}
+\begin{table}[H]\caption{The energy output after last relaxation of supercell.}\label{tab:energy_supercell_after_relax_new}
 \begin{tabular}{llll}
 F$_{max}$ & P&	Drift&	E$_{tot}$\\ \hline
 0.045&	0.023&	2.63	&-721.081\\
@@ -123,25 +119,35 @@ The total energy per atom with the super cell was $\frac{E_{tot}}{\# \text{ of a
 
 \subsection{O$_2$ in vacuum}
 
-Describe the INCAR file - what is different in this then the other ones? In theory?
+To calculate the formation energy we need the energy of oxygen in vacuum. This energy was calculated with the same cut-off energy as before and the k-point density 1 Å$^{-1}$ which gives the k-mesh (1x1x1) because it is only one molecule with vacuum in all directions. O$_2$ has a paramagnetic ground state, so we had to turn on the spin -polarization (ISPIN = 2). We relaxed the structure (Table \ref{tab:oxygen_relax} and then calculated the total energy (see Table \ref{tab:oxygen_vacuum}).
+
+\begin{table}[H]\caption{This table has relaxation steps of =$_2$ in vacuum.}\label{tab:oxygen_relax}
+\begin{tabular}{rllll}
+F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
+0.087&	1&	-0.22&	0.000&	-9.883\\
+0.406&	1&	0.09&	0.000&	-9.882\\
+0.000&	1&	-0.16&	0.000&	-9.883\\
+\end{tabular}
+\end{table}
 
 \begin{table}[H]\caption{The energy output of oxygen in vacuum.}\label{tab:oxygen_vacuum}
 \begin{tabular}{llll}
 F$_{max}$ &	P&	Drift&	E$_{tot}$ \\ \hline
-0.088&	0.000&	-0.22&	-9.883\\
+
 \end{tabular}
 \end{table}
 
-\subsubsection{Chemical potential}
+From this energy we can calculate the chemical potential, at our conditions, using Equation \ref{eq:mu_O_simple}:
 
-%$$ \mu_{O_2} = E^{tot}_{O_2} + \tilde{\mu}_{O_2}(T,p^0) + kT \ln (p/p^0)$$
+$$ \mu_O = \frac{1}{2}E_{tot}^{O_2} = \frac{1}{2}\cdot(-9.883) = -4.942 $$
 
-$$ \mu_O = \frac{1}{2}\mu_{O_2} = \frac{1}{2}\cdot(-9.883) = -4.942 $$
+\subsection{The different oxygen vacancies}
 
-\subsection{Different oxygen vacancies}
+Furthermore, we removed an oxygen atom from the three different sites, relaxed the structures and calculated the total energy of the structures. The same parameters were used in these as the calculations of the super cell without vacancies.
 
-\subsubsection{O(I) vacancy}
+\subsubsection{Relaxation}
 
+Table \ref{tab:ionstep_O_I} shows the first and last ionstep of the relaxation of the super cell with a O(I) vacancy. Table \ref{tab:ionstep_O_II} and Table \ref{tab:ionstep_O_III} shows the same for the O(II) vacancy and the O(III) vacancy respectively.
 
 \begin{table}[H]\caption{The ionstep - relaxation of super cell with O(I) vacancy.}\label{tab:ionstep_O_I}
 \begin{tabular}{rllll}
@@ -152,8 +158,6 @@ $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
 \end{tabular}
 \end{table}
 
-\subsubsection{O(II) vacancy}
-
 \begin{table}[H]\caption{The ionstep - relaxation of super cell with O(II) vacancy.}\label{tab:ionstep_O_II}
 \begin{tabular}{rllll}
 F$_{max}$ &\#$_{atom}$&	P&	Drift&	E$_{tot}$\\ \hline
@@ -162,9 +166,6 @@ $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
 0.013&	60&	-0.01&	0.143&	-711.709\\
 \end{tabular}
 \end{table}
-
-
-\subsubsection{O(III) vacancy}
 
 \begin{table}[H]\caption{The ionstep - relaxation of super cell with O(III) vacancy.}\label{tab:ionstep_O_III}
 \begin{tabular}{rllll}
@@ -177,8 +178,10 @@ $\vdots$&$\vdots$&$\vdots$&$\vdots$&$\vdots$\\
 
 \subsubsection{Total Energy}
 
+The total energy and other output of the relaxed structures are in Table \ref{tab:energy_supercell_vacancies}.
+
 \begin{table}[H]\caption{The energy output after relaxation of supercell with oxygen vacancies.}\label{tab:energy_supercell_vacancies}
-\begin{tabular}{lllll}
+\begin{tabular}{l|llll}
 Vacancy& F$_{max}$ &	P&	Drift&	E$_{tot}$ \\ \hline
 O(I)&    0.107&	    0.146&	2.29	&    -712.283\\
 O(II)&    0.067&	    0.198&	2.39	&    -711.860\\
@@ -186,13 +189,12 @@ O(III)&    0.087&    0.221&	2.13	&    -711.603\\
 \end{tabular}
 \end{table}
 
-
 \subsubsection{Formation Energy}
 
-$$E_f = (E_{vac} + \sum_i \Delta n \mu_i) - E_b  = (E_{vac}+ \mu_O) - E_b $$
+We used Equation \ref{eq:formation_energy} to calculate the formation energy of the three different situations and find which of the vacancies that had the smallest formation energy. 
 
-\begin{table}[H]\caption{This is the calculated formation energies for the diffrent oxygen vacancies at oxygen rich conditions.}\label{tab:energy_formation}
-\begin{tabular}{lrl}
+\begin{table}[H]\caption{This is the calculated formation energies for the diffrent oxygen vacancies at oxygen rich conditions. $E_f$ is the formation energy, $E_{vac}$ is the total bulk energy with the spesicied vacancy, $E_b$ is the total bulk energy without a vacancy and $\mu_O$ is the chemical potential of oxygen. }\label{tab:energy_formation}
+\begin{tabular}{l|rl}
 \footnotesize Vacancy&$(E_{vac} + \mu_O)- E_b = $ &$E_f$ \\ \hline
 \small O(I)&$(-712.282 -4.942)-721.081 =$ &3.857\\
 \small O(II)&$(-711.860 -4.942)-721.081 =$ &4.279\\
@@ -200,12 +202,15 @@ $$E_f = (E_{vac} + \sum_i \Delta n \mu_i) - E_b  = (E_{vac}+ \mu_O) - E_b $$
 \end{tabular}
 \end{table}
 
+From Table \ref{tab:energy_formation} we can read that the O(I) vacancy has the lowest formation energy at the conditions we are checking at.
+
 \subsection{Why the O(I) vacancy?}
 
+We will use isosurfaces and local DOS to evaluate why the O(I) vacancy is the one with smallest formation energy.
 
 \subsubsection{Total density of states}
 
-Notice the new level in the band gap - defect level - filled.
+First we can see that a defect level has showed up in the band gap, probably from the oxygen vacancy. This is shown when comparing Figure \ref{fig:total_dos_vac} which is the total DOS of the supercell without vacancies and \ref{fig:total_dos_supercell} which is DOS of the supercell with the O(I) vacancy.
 
 \begin{figure}[H]
 \includegraphics[width=\linewidth]{../fig/dosplot/total_dos_O_I_vacancy}\caption{This is a plot of the density of state of the super cell with a O(I) vacancy.}\label{fig:total_dos_vac}
@@ -241,7 +246,7 @@ Figure \ref{fig:isosurface_O_III} shows the same for the O(III) vacancy. As in t
 
 The difference between the O(I) vacancy with two Ga(I) atoms, that seems to form a covalent bond in the absence of an oxygen, and the other two vacancies, that only have one Ga(I) atom, might be a reason why the O(I) vacancy has the lowest formation energy.
 
-The reason for the bond between two the Ga(I) atoms may come from the shorter length of the O-Ga(I) bond compared to the O-Ga(II) bond (see Figure \ref{fig:distances}). The 'bulb' from the isosurface always occur at the Ga(I) atom, and nothing at the Ga(II) atoms. Maybe the Ga(I) atom has dangling bonds, and the Ga(II) relocate the electrons elsewhere - is that possible? \ref.
+The reason for the bond between two the Ga(I) atoms may come from the shorter length of the O-Ga(I) bond compared to the O-Ga(II) bond (see Figure \ref{fig:distances}). The 'bulb' from the isosurface always occur at the Ga(I) atom, and nothing at the Ga(II) atoms. Maybe the Ga(I) atom has dangling bonds, and the Ga(II) relocate the electrons elsewhere, making the O(I) more stable because the dangling bonds are in a bond instead. 
 
 \subsubsection{Local DOS Ga(II)}
 

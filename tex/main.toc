@@ -17,17 +17,14 @@
 \contentsline {subsubsection}{\numberline {4.2.1}Relaxation and energy}{9}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}Changed convergence criteria}{9}{subsubsection.4.2.2}
 \contentsline {subsection}{\numberline {4.3}O$_2$ in vacuum}{9}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Chemical potential}{10}{subsubsection.4.3.1}
-\contentsline {subsection}{\numberline {4.4}Different oxygen vacancies}{10}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}O(I) vacancy}{10}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}O(II) vacancy}{10}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}O(III) vacancy}{10}{subsubsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4}Total Energy}{10}{subsubsection.4.4.4}
-\contentsline {subsubsection}{\numberline {4.4.5}Formation Energy}{10}{subsubsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4}The different oxygen vacancies}{10}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Relaxation}{10}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Total Energy}{10}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Formation Energy}{10}{subsubsection.4.4.3}
 \contentsline {subsection}{\numberline {4.5}Why the O(I) vacancy?}{10}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Total density of states}{10}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1}Total density of states}{11}{subsubsection.4.5.1}
 \contentsline {subsubsection}{\numberline {4.5.2}Isosurfaces}{11}{subsubsection.4.5.2}
 \contentsline {subsubsection}{\numberline {4.5.3}Local DOS Ga(II)}{12}{subsubsection.4.5.3}
 \contentsline {subsubsection}{\numberline {4.5.4}Local DOS Ga(I)$_1$}{13}{subsubsection.4.5.4}
 \contentsline {subsubsection}{\numberline {4.5.5}Bond between Ga(I)$_1$ and Ga(I)$_2$?}{13}{subsubsection.4.5.5}
-\contentsline {section}{\numberline {5}Conclusion}{13}{section.5}
+\contentsline {section}{\numberline {5}Conclusion}{14}{section.5}
