@@ -1,7 +1,6 @@
 \subsection{Set up}
 
-Type of GGA.
-VASP. PDE?
+Density functional theory (DFT) was used to do the calculations in this report. The functional used was Perdew-Burke-Ernzerhof (PDE) functional which is a type of Generalized Gradient Approximation (GGA) functional. The program used was the Vienna Ab initio Simulation Package (VASP) \cite{vasp1,vasp2,vasp3,vasp4}.
 
 
 \subsection{Execution}
@@ -10,27 +9,25 @@ VASP. PDE?
 
 \item Found structure for $\beta- \text{Ga}_2\text{O}_3$
 
-\item Checked convergence for energy cut off and k-point density for primitive unit cell
+\item Checked convergence for energy cut-off and k-point density for primitive unit cell
 
-\item Convergence criteria result:
-\subitem ENCUT = 600
-\subitem makekpoints -d 5 $\rightarrow$ (3x11x6)
+\item Relaxed the unit cell (both ions and cell)
 
-\item Relaxed the unit cell
+\item Plotted local and total DOS for primitive unit cell
 
-\item Plotted DOS and band structure for primitive unit cell
+\item Found high symmetry k-points in structure
 
-\item Made super cell (1x 3y 2z)
+\item Plotted band structure for primitive unit cell
 
-\item Changed convergence criteria:
-\subitem EDIFFG = -0.01
-\subitem ENCUT = 500
-\subitem ISIF = 3
-\subitem makekpoints -d 3 $\rightarrow$ (2x3x2)
+\item Made supercell (1x 3y 2z) of 120 atoms
 
-\item Relaxed super cell (both electronic and pressure)
+\item Relaxed structure (only ions)
 
-\item Calculated energy for relaxed unit cell
+\item Changed convergence criteria, to lessen the CPU time
+
+\item Relaxed supercell (both ions and cell)
+
+\item Calculated energy for relaxed supercell
 
 \item Made three different structures for three different oxygen vacancies
 
@@ -38,22 +35,24 @@ VASP. PDE?
 
 \item Calculated energy for the relaxed structures
 
-\item Calculated energy of relaxed oxygen molecule in vacuum
-\subitem EDIFFG = -0.01
-\subitem EDIFF = 1E-5
-\subitem ENCUT = 500
-\subitem ISPIN = 2
-\subitem makekpoints -d 1 $\rightarrow$ (1x1x1)
+\item Relaxed the O$_2$ in vacuum
+
+\item Calculated energy of relaxed oxygen molecule
 
 \item Found formation energy 
 
-\item Plotted local DOS near vacancy and far away from it
+\item Investigated electron density isosurfaces visually
+
+\item Plotted local DOS of neighboring gallium atoms
+
+\item Compared with local DOS in normal supercell
+
 
 \end{itemize}
 
 \subsection{Convergence}
 
-This section present the result from the convergence tests. The figures have normal convergence criteria plotted with the results, to help evaluate them. 
+This subsection present the result from the convergence tests. The figures have normal convergence criteria plotted with the results, to help evaluate them. 
 
 \subsubsection{Energy cut-off}
 
@@ -70,14 +69,14 @@ We started with convergence with respect to energy cut-off. Figure \ref{fig:tote
 We also looked at the force and the pressure with respect to the cut-off energy. Figure \ref{fig:forcepresscutoff} shows the result. A cut-off energy of 600 eV gives a good convergence for force and pressure also. 
 
 \begin{figure}[H]
-\includegraphics[width=\linewidth]{../fig/deltaforcepressrel.pdf}\caption{This is a plot of the difference between change in both force and pressure for $\beta \text{-Ga}_2\text{O}_3$ with and without a oxygen vacancy. We can see from the plot that with respect to pressure and force 600 eV is more than sufficient. The change in force increases, but it is still small.}\label{fig:forcepresscutoff}
+\includegraphics[width=\linewidth]{../fig/deltaforcepressrel.pdf}\caption{This is a plot of the difference between change in both force and pressure for $\beta \text{-Ga}_2\text{O}_3$ with and without an oxygen vacancy. We can see from the plot that with respect to pressure and force 600 eV is more than sufficient. The change in force increases, but it is still small.}\label{fig:forcepresscutoff}
 \end{figure}
 
 After increasing the primitive unit cell to a super cell, the CPU time of the relaxation increased a lot. To make the calculations more workable, the convergence criteria was made a little less strict and the new cut-off energy was sat to 500 eV. When we look at Figure \ref{fig:totencutoff} and \ref{fig:forcepresscutoff} we see that a cut-off energy at 500 eV gives a good convergence as well, it is still around 3 meV for the energy and around 1 kbar for the pressure and 0.01 eV/Å for the force.
 
 \subsubsection{k-point density}
 
-Thereafter, we evaluated the necessary k-point density. Figure \ref{fig:totenkpoints} shows the result for the relative change in energy and Figure \ref{fig:forcepresskpoints} tshows the same for force and pressure. 
+Thereafter, we evaluated the necessary k-point density. Figure \ref{fig:totenkpoints} shows the result for the relative change in energy and Figure \ref{fig:forcepresskpoints} shows the same for force and pressure. 
 
 \begin{figure}[H]
 \includegraphics[width=\linewidth]{../fig/deltatotencurverel_kpoints.pdf}\caption{This is a plot of the difference between change in energy for $\text{Ga}_2\text{O}_3$ with and without a oxygen vacancy. We can see from the plot that a k-point density of 5 $\text{Å}^{-1}$ is sufficient.}\label{fig:totenkpoints}

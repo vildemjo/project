@@ -21,6 +21,45 @@
   publisher={AIP}
 }
 
-%Find crystal structure:
+@article{vasp1,
+  title={Ab initio molecular dynamics for liquid metals},
+  author={G. Kresse and J. Hafner.},
+  journal={Phys. Rev. B},
+  volume={47:558},
+  year={1993},
 
-%https://icsd.fiz-karlsruhe.de/search/basic.xhtml;jsessionid=23EE74F56A65E6D0A72ADD01102A4E41
+}
+
+@article{vasp2,
+  title={Ab initio molecular-dynamics simulation of the liquid-metal-amorphous-semiconductor transition in germanium},
+  author={G. Kresse and J. Hafner.},
+  journal={Phys. Rev. B},
+  volume={49:14251},
+  year={1994},
+}
+
+@article{vasp3,
+  title={Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set},
+  author={G. Kresse and J. Furthmüller},
+  journal={Comput. Mat. Sci.},
+  volume={ 6:15},
+  year={1996},
+}
+
+@article{vasp4,
+  title={Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set},
+  author={G. Kresse and J. Furthmüller},
+  journal={Phys. Rev. B},
+  volume={54:11169},
+  year={1996},
+}
+
+@misc{berland, title={Brief Introduction to the Density Functional Theory}, publisher={Department of Physics, University of Oslo}, author={Persson, Clas and Berland, Kristian}}
+%Lecture Notes to MSc course FYS-MENA4111 - Quantum Mechanical Modeling of Nano-Materials at University of Oslo.
+
+@book{sholl,
+  title={Density functional theory: a practical introduction},
+  author={Sholl, David and Steckel, Janice A},
+  year={2011},
+  publisher={John Wiley \& Sons}
+}

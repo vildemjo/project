@@ -5,4 +5,36 @@ JB~Varley, JR~Weber, A~Janotti, and CG~Van~de Walle.
 \newblock Oxygen vacancies and donor impurities in $\beta$-{G}a$_2${O}$_3$.
 \newblock {\em Applied Physics Letters}, 97(14):142106, 2010.
 
+\bibitem{berland}
+Clas Persson and Kristian Berland.
+\newblock Brief introduction to the density functional theory.
+
+\bibitem{sholl}
+David Sholl and Janice~A Steckel.
+\newblock {\em Density functional theory: a practical introduction}.
+\newblock John Wiley \& Sons, 2011.
+
+\bibitem{vasp1}
+G.~Kresse and J.~Hafner.
+\newblock Ab initio molecular dynamics for liquid metals.
+\newblock {\em Phys. Rev. B}, 47:558, 1993.
+
+\bibitem{vasp2}
+G.~Kresse and J.~Hafner.
+\newblock Ab initio molecular-dynamics simulation of the
+  liquid-metal-amorphous-semiconductor transition in germanium.
+\newblock {\em Phys. Rev. B}, 49:14251, 1994.
+
+\bibitem{vasp3}
+G.~Kresse and J.~Furthmüller.
+\newblock Efficiency of ab-initio total energy calculations for metals and
+  semiconductors using a plane-wave basis set.
+\newblock {\em Comput. Mat. Sci.}, 6:15, 1996.
+
+\bibitem{vasp4}
+G.~Kresse and J.~Furthmüller.
+\newblock Efficient iterative schemes for ab initio total-energy calculations
+  using a plane-wave basis set.
+\newblock {\em Phys. Rev. B}, 54:11169, 1996.
+
 \end{thebibliography}
